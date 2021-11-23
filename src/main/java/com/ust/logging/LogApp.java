@@ -1,13 +1,13 @@
-package com.ust.logging.loggingexample;
+package com.ust.logging;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LoggingExampleApplication {
+public class LogApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoggingExampleApplication.class, args);
+		SpringApplication.run(LogApp.class, args);
 	}
 
 }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up page</title>
+</head>
+<body>
+<section>
+    <h2>Sign up</h2>
+    <p th:text="${error_message}"></p>
+    <div><form method="POST" action="signup">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" placeholder=""><br><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" placeholder=""><br><br>
+        <input type="submit">
+    </form></div>
+</section>
+</body>
+</html>

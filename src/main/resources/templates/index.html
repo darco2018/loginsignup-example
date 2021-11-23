@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<h2>Welcome to the signup/login POC...</h2>
+<div>
+    <span th:text="${log}">USER LOGIN(will be repalced)</span>&nbsp
+    <span th:text="${success_message}">SIGNUP SUCCESS MSG</span><br><br>
+</div>
+<a href="/signup">Sign up</a><br>
+<a href="/login">Log in</a>
+
+
+
+
+
+
+<!--
+ <div>Password is: <span th:text="${ps}" ></span><br></div>
+
+th:text attribute, which evaluates its value expression and sets the result
+as the body of the host tag, effectively
+ replacing the “This will not be displayed!” text we see in the code.
+<p th:text="${message}" >This will not be displayed!</p>
+
+-->
+
+
+</body>
+</html>

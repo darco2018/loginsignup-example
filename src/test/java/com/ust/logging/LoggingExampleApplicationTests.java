@@ -1,4 +1,4 @@
-package com.ust.logging.loggingexample;
+package com.ust.logging;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
